@@ -9,6 +9,23 @@
   padding: 0.5rem 1rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .list {
+    padding: 1.5rem 2.5rem;
+  }
+}
+
 .list .item {
   margin-bottom: 1.5rem;
+}
+
+.pc-list > header,
+.pc-list > footer {
+  padding: 1rem 0.5rem;
+  text-align: end;
+}
+
+.pc-list header span,
+.pc-list footer span {
+  padding: 0 0.25rem;
 }

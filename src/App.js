@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import logo from "./logo.svg";
 import "./App.css";
 import axios from "axios";
 
@@ -45,8 +44,18 @@ function App() {
   };
 
   /** PC 版型 */
-  const PcUserLayout = () => {
-    return <div>PcItemLayout</div>;
+  const PcUserLayout = ({ _user }) => {
+    return (
+      <div className="pc-user-layout">
+        <header>
+          <span>{_user?.firstName}</span>
+          <span>{_user?.lastName}</span>
+        </header>
+        <main>
+          <span>{_user?.email}</span>
+        </main>
+      </div>
+    );
   };
 
   /** 取得更多使用者 */
@@ -60,7 +69,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1>Gogoro Inc.</h1>
       </header>
       <main className="App-main">

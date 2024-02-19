@@ -41,13 +41,15 @@
   }
 } */
 
-.mobile-user-layout {
+.mobile-user-layout,
+.pc-user-layout {
   padding: 1rem;
   border: 1px solid #000;
   border-radius: 8px;
   background-color: #b05858;
   color: #fff;
 }
-.mobile-user-layout header span {
+.mobile-user-layout header span,
+.pc-user-layout header span {
   padding: 0 0.5rem;
 }

@@ -1,6 +1,8 @@
 # Gogoro F2E Code Testing
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Follow on [ggr-f2e-testing](https://ggr-f2e.my.canva.site/testing)
+DEMO: [netlify demo](https://wsw-ggr.netlify.app/)
 
 ## Getting Started
 

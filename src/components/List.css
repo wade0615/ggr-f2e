@@ -1,0 +1,14 @@
+#scrollableDiv {
+  height: 100%;
+  overflow: scroll;
+}
+
+.list {
+  position: relative;
+  height: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.list .item {
+  margin-bottom: 1.5rem;
+}
